@@ -1,0 +1,7 @@
+# File extensions to ignore
+*.pyc
+*.vs
+
+# Folders to ignore
+.vs/
+**/__pycache__
