@@ -15,7 +15,7 @@ USE Reports;
 
 CREATE TABLE dbo.FacultyAbsence
 (
-	UTSWPersonNumber	INT				NOT NULL
+	PersonID			INT				NOT NULL
 	, FacultyFullName	NVARCHAR(30)
 	, ScheduleDate		DATE			NOT NULL
 	, PayCode			NVARCHAR(15)	NOT NULL
