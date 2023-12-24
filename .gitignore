@@ -2,5 +2,5 @@
 
 
 # Folders to ignore
-.vs/
+**/.vs/
 **/__pycache__
