@@ -24,9 +24,9 @@ processRunDate = date.today()
 
 # Set directory and file paths
 currentPC = os.environ['COMPUTERNAME']
-if currentPC == "ANES10-540842":
+if currentPC == "laptop":
 	logPath = os.path.join("C:\\", "Users", "scrubbed", "Sandbox", "MTQT", "logs", "")						# C:\Users\scrubbed\Sandbox\MTQT\logs\
-elif currentPC == "ANES10-535923":
+elif currentPC == "etl":
 	logPath = os.path.join("C:\\", "Users", "Public", "ANES ETL", "MTQT", "logs", "")						#C:\Users\Public\ANES ETL\MTQT\logs
 
 if os.path.exists(logPath) == False:
